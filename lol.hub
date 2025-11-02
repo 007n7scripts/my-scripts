@@ -97,7 +97,7 @@ SubmitButton.MouseButton1Click:Connect(function()
     if KeySystem == "Kikimora" then   
 screenGui:Destroy()
  
-loadstring(game:HttpGet(""))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/GameList.lua"))()
   
   end
 end)

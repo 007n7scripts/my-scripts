@@ -10,7 +10,7 @@ frame.Parent = screenGui
 local title = Instance.new("TextLabel")
 title.Size = UDim2.new(1, 0, 0, 20)
 title.Position = UDim2.new(0, 0, 0, -20)
-title.Text = "Key in Lootlabs!"
+title.Text = "Key in Lootlabs & Discord!"
 title.TextColor3 = Color3.new(1, 1, 1)
 title.BackgroundColor3 = Color3.new(0, 0, 0)
 title.Parent = frame
@@ -103,5 +103,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/007n7scripts/FlyGuiSc
 end)
  
 GetKeyButton.MouseButton1Click:Connect(function()
- setclipboard("") 
+ setclipboard("https://loot-link.com/s?35DhQv9T") 
+or
+
+GetKeyButton.MouseButton1Click:Connect(function()
+ setclipboard("https://dsc.gg/key-flyguiv3") 
 end)
+  

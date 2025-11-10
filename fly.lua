@@ -106,7 +106,12 @@ GetKeyButton.MouseButton1Click:Connect(function()
  setclipboard("https://loot-link.com/s?35DhQv9T") 
 or
 
+local GetKeyButton = Instance.new("TextButton")
+GetKeyButton.Size = UDim2.new(0.5, 0, 0.5, 0)
+GetKeyButton.Position = UDim2.new(0.5, 0, 0.5, 0)
+GetKeyButton.Text = "Get Key"
+GetKeyButton.Parent = frame
+  
 GetKeyButton.MouseButton1Click:Connect(function()
  setclipboard("https://dsc.gg/key-flyguiv3") 
 end)
-  

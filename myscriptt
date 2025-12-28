@@ -46,7 +46,8 @@ Rayfield:Notify({
 
 local Section = MiscTab:CreateSection("Other Scripts")
     
-    local Button = OtherScriptsTab:CreateButton({
+local MainTab = Window:CreateTab("🏠Home", nil) -- Title, Image
+local Button = OtherScriptsTab:CreateButton({
    Name = "Infinite Yield",
    Callback = function()
           loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()

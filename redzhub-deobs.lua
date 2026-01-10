@@ -1,4 +1,7 @@
-
+--\\\\\\\\\\\\\\\\\\\
+   RedzHub Remake
+   By: TenshiDev
+--\\\\\\\\\\\\\\\\\\\
 
 hookfunction(require(game:GetService("ReplicatedStorage").Effect.Container.Death), function()
     -- empty block
